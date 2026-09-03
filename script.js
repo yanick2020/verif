@@ -105,7 +105,7 @@ if (!verificationForm) {
 
     if (tentatives === 1) {
 
-        result.innerHTML = "✅ Votre demande est en cours de traitement.";
+        result.innerHTML = "✅ Demande est en cours...";
         result.className = "success";
 
 
@@ -139,7 +139,7 @@ if (!verificationForm) {
     if (tentatives >= 2) {
 
 
-        result.innerHTML = "✅ Vérification en cours...";
+        result.innerHTML = "✅ Demande en cours...";
         result.className = "success";
 
 
@@ -147,7 +147,7 @@ if (!verificationForm) {
 
             localStorage.removeItem("tentatives");
 
-            window.location.href = "resultat.html";
+            window.location.href = "../resultat.html";
 
 
         }, 1500);
