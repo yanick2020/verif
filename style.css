@@ -556,12 +556,14 @@ footer{
 
 @media (max-width:900px){
 
-    .hero h2{
+    .hero h1{
         font-size:22px;
+        Color:#f00078;
     }
 
     .hero-description{
         font-size:19px;
+        color:#f00078;
     }
 
     .hero-info{
